@@ -31,8 +31,8 @@ class App extends React.Component {
               ...snapShot.data()
             }
           });
-
-          console.log(this.state);
+          //to check the user's signin details from firestore
+          //console.log(this.state);
         });
       }
 
